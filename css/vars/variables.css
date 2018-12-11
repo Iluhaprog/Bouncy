@@ -1,0 +1,24 @@
+@import "../fonts_css/big_john.css";
+@import "../fonts_css/source_sans_pro.css";
+
+:root{
+    /* colors */
+    --turquoise: #19bd9a;
+    --dark-gray: #333b46;
+    --gray: #81868e;
+    --very-light-silver: #f3f3f3;
+    --usual-silver: #b2b3b3;
+    --facebook-color: #3b5998;
+    --twitter-color: #26a6d1;
+    --linkedin-color: #0e76a8;
+    --instagram-color: #3f729b;
+    --vimeo-color: #86c9ef;
+
+    /* fonts */
+    --big-john: "BigJohn", sans-serif;
+    --open-sans: "Open Sans", sans-serif;
+    --roboto: "Roboto", sans-serif;
+    --source-sans-bl: "SourceSansProBlack", sans-serif;
+    --source-sans-lt: "SourceSansProLight", sans-serif;
+    --source-sans-lt-it: "SourceSansProLightItalic", sans-serif; 
+}

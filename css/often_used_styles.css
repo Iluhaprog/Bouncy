@@ -1,0 +1,39 @@
+.container{
+    width: 1169px;
+    height: 100%;
+    margin-left: calc(50% - 584.5px);
+    padding: 0;
+}
+
+.default-bl{
+    padding-top: 80px;
+}
+
+.title{
+    color: var(--dark-gray);
+    font-family: var(--source-sans-lt);
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.description{
+    font-family: var(--open-sans);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+    color: var(--gray);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 20px;
+}
