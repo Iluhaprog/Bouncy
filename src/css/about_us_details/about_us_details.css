@@ -2,14 +2,24 @@
     background-color: var(--very-light-silver);
 }
 
+.about_us_details .container{
+    width: 1029px;
+    padding: 0 70px;
+}
+
 .about_icons{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .about_icons span:nth-child(1){
     background: var( --turquoise);
 }
+.about_icons span:nth-child(2)::before{
+    margin-top: -5px;
+}
+
 .about_icons span{
     display: flex;
     justify-content: center;
@@ -24,3 +34,11 @@
     border-radius: 50%;
     margin: 0 27px;
 }
+
+.text_np_cotainer{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 105px;
+}
+
+.pred_text{ margin-right: 110px; }

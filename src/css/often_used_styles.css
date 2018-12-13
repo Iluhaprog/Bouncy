@@ -1,3 +1,6 @@
+h1{ font-size: 35px; }
+h2{ font-size: 20px; }
+
 .container{
     width: 1169px;
     height: 100%;
@@ -30,10 +33,28 @@
     text-align: center;
     margin-bottom: 60px;
 }
-
-h1{
-    font-size: 35px;
+.un_title{
+    color: var(--un-title-color);
+    font-family: "Open Sans";
+    font-weight: 400;
+    letter-spacing: 0.8px;
 }
-h2{
-    font-size: 20px;
+.pn_text{
+    color: var(--gray);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+
+.turquoise_span{
+    color: var(--turquoise);
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.gr_span{
+    color: var(--span-gr);
+    font-family: "Open Sans";
+    font-weight: 700;
 }
