@@ -1,0 +1,68 @@
+.team_quotes{
+    width: 100%;
+    background-color: #000;
+}
+
+.bg_team_quotes{
+    width: 100%;
+    background-image: url("../../../resources/img/team_quotes/tm_quotes_bg.png");
+    padding-bottom: 90px;
+}
+
+.bg_team_quotes .container{
+    display: flex;
+}
+
+.team_title{
+    color: var(--very-light-silver);
+    font-family: var(--source-sans-lt);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.team_sub_text{
+    margin-top:40px; 
+    color: var(--very-light-silver);
+    font-family: var(--open-sans);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+.author{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.author .gr_span{ color: var(--very-light-silver); } 
+.author .turquoise_span{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.team_img{
+    position: relative;
+    margin-top: -114px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm_logo{
+    position: absolute;
+    top: 120px;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: var(--big-john);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tm_logo span{
+    color: var(--turquoise);
+}

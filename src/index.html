@@ -16,9 +16,9 @@
             <div class="logo"><a href="#">Bouncy</a></div>
             <nav class="navigation">
                 <ul>
-                    <li class="nav-item"><a href="#">Hello</a></li>
-                    <li class="nav-item"><a href="#">About</a></li>
-                    <li class="nav-item"><a href="#">Services</a></li>
+                    <li class="nav-item"><a href="#slider">Hello</a></li>
+                    <li class="nav-item"><a href="#about_us">About</a></li>
+                    <li class="nav-item"><a href="#services">Services</a></li>
                     <li class="nav-item"><a href="#">Portfolio</a></li>
                     <li class="nav-item"><a href="#">Team</a></li>
                     <li class="nav-item"><a href="#">Blog</a></li>
@@ -27,7 +27,7 @@
             </nav>
         </div>
 
-        <div class="slider">
+        <div class="slider" id="slider">
             <div class="blackout">
                 <h1>We Are Code Cafe</h1>
                 <p>
@@ -39,7 +39,7 @@
         </div>
     </header>
 
-    <div class="about_us">
+    <div class="about_us" id="about_us">
         <div class="container">
             <div class="text">
                 <h2>This is Bouncy</h2>
@@ -133,8 +133,112 @@
         </div>
     </div>
 
+    <div class="services default-bl" id="services">
+        <div class="container">
+            <h2 class="title">OUR SERVICES</h2>
+            <p class="description">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui<br>
+                blanditiis praesentium
+            </p>
+
+            <div class="service_about">
+                <div class="service_text">
+                    <nav class="serv_menu">
+                        <ul>
+                            <li class="sr_menu_itm">
+                                <a href="#" id="a1">
+                                    <span class="pe-7s-tools"></span>
+                                </a>
+                            </li>
+                            <li class="sr_menu_itm">
+                                <a href="#" id="a2">
+                                    <span class="pe-7s-paint"></span>
+                                </a>
+                            </li>
+                            <li class="sr_menu_itm">
+                                <a href="#" id="a3">
+                                    <span class="pe-7s-joy"></span>
+                                </a>
+                            </li>
+                            <li class="sr_menu_itm">
+                                <a href="#" id="a4">
+                                    <span class="pe-7s-plug"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="mn_text">
+                        <h2 class="un_title">Graphic Design</h2>
+                        <p class="pn_text">
+                            At vero eos et accusamus et <span class="turquoise_span">iusto</span> odio digniss-<br>
+                            imos <span class="gr_span">ducimus</span> qui blanditiis praesentium volup-<br>
+                            tatum deleniti
+                        </p>
+                        <p class="pn_text">
+                            quos dolores et quas molestias excepturi sint occaecati<br>
+                            cupiditate non provident, <span class="turquoise_span">similique sunt</span> in culpa qui<br>
+                            officia deserunt mollitia animi,
+                            id est laborum et do-<br>
+                            lorum fuga. 
+                        </p>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="business default_skills_block">
+                        <div class="ellipce">
+                            <div class="sk_in_block">
+                                <p class="prozent">80<span>%</span></p>
+                            </div>
+                        </div>
+                        <p class="skills_name">branding</p>
+                    </div>
+                    <div class="developing default_skills_block">
+                        <div class="ellipce">
+                            <div class="sk_in_block">
+                                <p class="prozent">75<span>%</span></p>
+                            </div>
+                        </div>
+                        <p class="skills_name">web design</p>
+                    </div>
+                    <div class="marketing default_skills_block">
+                        <div class="ellipce">
+                            <div class="sk_in_block">
+                                <p class="prozent">60<span>%</span></p>
+                            </div>
+                        </div>
+                        <p class="skills_name">ui/ux</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team_quotes">
+        <div class="bg_team_quotes default-bl">
+            <div class="container">
+                <div class="team_text">
+                    <h2 class="team_title">Impressed ?</h2>
+                    <p class="team_sub_text">
+                        At vero eos et accusamus et iusto odio 
+                        dignissimos ducimus qui blanditi-<br>is 
+                        praesentium voluptatum deleniti atque 
+                        corrupti quos<br> dolores et quas molestias
+                    </p>
+                    <p class="team_sub_text author">
+                        <span class="gr_span">- Abdullah Noman</span><br>
+                        Creatice Director, <span class="turquoise_span">Code Cafe</span>
+                    </p>
+                </div>
+                <div class="team_img">
+                    <img src="../resources/img/team_quotes/tm_imac.png" alt="imac">
+                    <p class="tm_logo">b<span>o</span>uncy</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    <script async src="js/bouncy_script.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="js/bouncy_script.js"></script>
 </body>
 </html>

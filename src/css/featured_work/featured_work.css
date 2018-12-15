@@ -12,6 +12,17 @@
     width: 25%;
 }
 
+@keyframes changeWork2Img{
+    0%{ background-image: url("../../../resources/img/featured_work/featured_work2_1.jpg"); }
+    50%{ background-image: url("../../../resources/img/featured_work/featured_work2_2.jpg"); }
+    100%{ background-image: url("../../../resources/img/featured_work/featured_work2_1.jpg"); }
+}
+@keyframes changeWork3Img{
+    0%{ background-image: url("../../../resources/img/featured_work/featured_work3_1.jpg"); }
+    70%{  background-image: url("../../../resources/img/featured_work/featured_work3_2.jpg"); }
+    100%{ background-image: url("../../../resources/img/featured_work/featured_work3_1.jpg"); }
+}
+
 .work:nth-child(1){
     width: 50%;
     height: 100.5%;
@@ -25,13 +36,13 @@
     background-image: url("../../../resources/img/featured_work/featured_work2_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 0.8s;
+    animation: changeWork2Img 15s infinite;
 }
 .work:nth-child(3){
     background-image: url("../../../resources/img/featured_work/featured_work3_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 0.8s;
+    animation: changeWork3Img 15s 2s infinite;
 }
 .work .blackout{
     display: flex;
@@ -77,12 +88,14 @@
 
 .shadow_shue{
     position: relative;
-    background: url("../../../resources/img/featured_work/shadow_shue.jpg");
     width: 100%;
+    background: rgba(25, 189, 154, 0.55);
 }
 
 .shadow_shue .blackout{
-    background: rgba(25, 189, 154, 0.55);
+    background: url("../../../resources/img/featured_work/shadow_shue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .shadow_shue .blackout .container {
