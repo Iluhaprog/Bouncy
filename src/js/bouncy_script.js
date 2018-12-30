@@ -145,7 +145,21 @@ function getAllWorks(){
         "src", "../resources/img/the_portfolio/col4_img3.jpg");
     checkWidthWorkBlock()
 }
+//Services
+function getGraphicDesing(){
+    $(".service_text .mn_text .un_title").html("Graphic Design");
+}
+function getServiceBrandings(){
+    $(".service_text .mn_text .un_title").html("Branding");
+}
+function getWebDesign(){
+    $(".service_text .mn_text .un_title").html("Web Design");
+}
+function getUX(){
+    $(".service_text .mn_text .un_title").html("UX/UI");
+}
 
+//PORTFOLIO
 function getPrints(){
     $(".column .work_block img").attr(
         "src", "../resources/img/the_portfolio/col3_img1.jpg");

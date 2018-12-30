@@ -45,6 +45,9 @@
     width: 270px;
     margin: 0 5px;
 }
+.column:nth-child(1){
+    margin-left: 0;
+}
 
 .work_block{
     position: relative;

@@ -1,0 +1,39 @@
+.portfolio_cta{
+    position: relative;
+    width: 100%;
+    height: 201px;
+    margin-top: 40px;
+    background: var(--turquoise);
+}
+
+.portfolio_cta img,
+.pct_block{
+    position: absolute;
+}
+
+.pct_block{
+    top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pct_block p{
+    width: 100%;
+    color: #fff !important;
+    font-family: var(--open-sans);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+}
+
+.pct_block p span{
+    color: #fff;
+}
+
+.pct_block .button_send_now{
+    margin-top: 35px;
+    margin-left: 0;
+}
