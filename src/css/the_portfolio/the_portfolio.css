@@ -1,0 +1,122 @@
+.the_portfolio{
+    background: var(--very-light-silver);
+}
+
+.the_portfolio .container{
+    width: 1109px;
+    padding: 0 30px 0 30px;
+}
+
+.portfolio_menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.portfolio_menu_item {
+    margin: 0 22.5px 0 22.5px;
+}
+
+.portfolio_menu_item a{
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--open-sans);    
+    color: var(--dark-gray);
+}
+
+.selected_portfolio_menu_item::before{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 3px;
+    left: 17.5%;
+    top: 33px;
+    background: var(--turquoise);
+}
+.columns{
+    margin-top: 80px;
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    margin: 0 5px;
+}
+
+.work_block{
+    position: relative;
+    margin: 3px 0;
+}
+
+.work_block .blackout{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 5px);
+    top:0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.work_block:hover .blackout{
+    opacity: 1;
+}
+
+.bl_inner{
+    position: relative;
+    margin-top: 28%;
+    height: 56%;
+    padding: 0 35px;
+}
+
+.work_title{
+    color: var(--turquoise);
+    font-family: var(--source-sans-lt);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.blackout .work_descript{
+    position: absolute;
+    color: var(--usual-silver);
+    font-family: var(--open-sans);
+    font-size: 12px;
+    font-weight: 400 ;
+    line-height: 20px;
+    text-align: left;
+    padding: 0;
+}
+
+.bl_inner .work_descript{ top: 33%;}
+
+.buttons{
+    position: absolute;
+    display: flex;
+    top: calc(63% + 60px);
+}
+.mkb{ top: calc(35% + 60px); }
+.mnb{ top: calc(47% + 60px); } 
+
+.but_link, .but_like{
+    width: 28px;
+    height: 28px;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+}
+.but_link span, .but_like span{
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.but_link:hover span{ color: lightseagreen; }
+.but_like:hover span{ color: red; }
