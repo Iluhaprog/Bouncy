@@ -94,6 +94,32 @@ $(window).ready(function(){
         $("#spmi6").removeClass("selected_portfolio_menu_item");
         $("#spmi7").addClass("selected_portfolio_menu_item");
     });
+
+    $("#btn1").click(function(){
+        $("#btn1").addClass('selected_nav_btn');
+        $("#btn2").removeClass('selected_nav_btn');
+        $("#btn3").removeClass('selected_nav_btn');
+        $(".card:nth-child(1)").addClass('selected_card');
+        $(".card:nth-child(2)").removeClass('selected_card');
+        $(".card:nth-child(3)").removeClass('selected_card');
+    });
+    $("#btn2").click(function(){
+        $("#btn1").removeClass('selected_nav_btn');
+        $("#btn2").addClass('selected_nav_btn');
+        $("#btn3").removeClass('selected_nav_btn');
+        $(".card:nth-child(1)").removeClass('selected_card');
+        $(".card:nth-child(2)").addClass('selected_card');
+        $(".card:nth-child(3)").removeClass('selected_card');
+    });
+    $("#btn3").click(function(){
+        $("#btn1").removeClass('selected_nav_btn');
+        $("#btn2").removeClass('selected_nav_btn');
+        $("#btn3").addClass('selected_nav_btn');
+        $(".card:nth-child(1)").removeClass('selected_card');
+        $(".card:nth-child(2)").removeClass('selected_card');
+        $(".card:nth-child(3)").addClass('selected_card');
+    });
+
     
 });
 
