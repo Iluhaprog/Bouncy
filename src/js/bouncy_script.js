@@ -120,6 +120,31 @@ $(window).ready(function(){
         $(".card:nth-child(3)").addClass('selected_card');
     });
 
+    $("#btn4").click(function(){
+        $("#btn4").addClass('selected_nav_btn');
+        $("#btn5").removeClass('selected_nav_btn');
+        $("#btn6").removeClass('selected_nav_btn');
+        $(".testimonial:nth-child(1)").addClass('selected_testimonial');
+        $(".testimonial:nth-child(2)").removeClass('selected_testimonial');
+        $(".testimonial:nth-child(3)").removeClass('selected_testimonial');
+    });
+    $("#btn5").click(function(){
+        $("#btn4").removeClass('selected_nav_btn');
+        $("#btn5").addClass('selected_nav_btn');
+        $("#btn6").removeClass('selected_nav_btn');
+        $(".testimonial:nth-child(1)").removeClass('selected_testimonial');
+        $(".testimonial:nth-child(2)").addClass('selected_testimonial');
+        $(".testimonial:nth-child(3)").removeClass('selected_testimonial');
+    });
+    $("#btn6").click(function(){
+        $("#btn4").removeClass('selected_nav_btn');
+        $("#btn5").removeClass('selected_nav_btn');
+        $("#btn6").addClass('selected_nav_btn');
+        $(".testimonial:nth-child(1)").removeClass('selected_testimonial');
+        $(".testimonial:nth-child(2)").removeClass('selected_testimonial');
+        $(".testimonial:nth-child(3)").addClass('selected_testimonial');
+    });
+
     
 });
 

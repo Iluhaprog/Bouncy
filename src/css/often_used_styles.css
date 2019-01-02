@@ -39,13 +39,13 @@ h2{ font-size: 20px; }
 }
 .un_title{
     color: var(--un-title-color);
-    font-family: "Open Sans";
+    font-family: var(--open-sans);
     font-weight: 400;
     letter-spacing: 0.8px;
 }
 .pn_text{
     color: var(--gray);
-    font-family: "Open Sans";
+    font-family: var(--open-sans);
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.8px;
@@ -53,12 +53,33 @@ h2{ font-size: 20px; }
 
 .turquoise_span{
     color: var(--turquoise);
-    font-family: "Open Sans";
+    font-family: var(--open-sans);
     font-weight: 700;
 }
 
 .gr_span{
     color: var(--span-gr);
-    font-family: "Open Sans";
+    font-family: var(--open-sans);
     font-weight: 700;
+}
+
+.nav_buttons{
+    display: flex;
+    justify-content: center;
+    margin-top:60px;
+}
+
+.selected_nav_btn{ background-color: var(--turquoise); }
+.nav_btn{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--turquoise);
+    margin: 0 5px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+       -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+         -o-transition: 0.3s;
+            transition: 0.3s;
 }

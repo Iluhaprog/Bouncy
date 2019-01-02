@@ -1,5 +1,5 @@
-@import "often_used_styles.css";
 @import "vars/variables.css";
+@import "often_used_styles.css";
 @import "navbar/navbar.css";
 @import "slider/slider.css";
 @import "about_us/about_us.css";
@@ -10,3 +10,5 @@
 @import "the_portfolio/the_portfolio.css";
 @import "portfolio_cta/portfolio_cta.css";
 @import "the_team/the_team.css";
+@import "the_team_cta/the_team_cta.css";
+@import "testimonials/testimonials.css";

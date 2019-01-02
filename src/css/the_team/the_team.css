@@ -26,7 +26,7 @@
     top: 10px;
     left: 10px;
     width: calc(100% - 20px);
-    height: calc(100% - 25px);
+    height: calc(100% - 55px);
     transition: 0.3s;
     overflow: hidden;
 }
@@ -135,24 +135,3 @@
 .ln1{ width: 80%; }
 .ln2{ width: 65%; }
 .ln3{ width: 75%; }
-
-.nav_buttons{
-    display: flex;
-    justify-content: center;
-    margin-top:60px;
-}
-
-.selected_nav_btn{ background-color: var(--turquoise); }
-.nav_btn{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: 1px solid var(--turquoise);
-    margin: 0 5px;
-    cursor: pointer;
-    -webkit-transition: 0.3s;
-       -moz-transition: 0.3s;
-        -ms-transition: 0.3s;
-         -o-transition: 0.3s;
-            transition: 0.3s;
-}

@@ -1,0 +1,46 @@
+.the_team_cta{
+	width: 100%;
+	background-color: #000;
+}
+
+@keyframes bg_anim {
+	0%{
+		background-image: url(../../../resources/img/the_team_cta/the_team_cta_bg1.png);
+	}
+	31%{
+		background-image: url(../../../resources/img/the_team_cta/the_team_cta_bg2.png);
+	}
+	100%{
+		background-image: url(../../../resources/img/the_team_cta/the_team_cta_bg1.png);
+	}
+}
+
+.upper_block{
+	padding: 40px 0;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background-image: url(../../../resources/img/the_team_cta/the_team_cta_bg1.png);
+	-webkit-animation: bg_anim 30s 0.1s infinite;
+	   -moz-animation: bg_anim 30s 0.1s infinite;
+	     -o-animation: bg_anim 30s 0.1s infinite;
+	        animation: bg_anim 30s 0.1s infinite;
+}
+
+.title_ttc{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-family: var(--open-sans);
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.8px;
+}
+
+.ttc_btn_style{
+	margin-top: 35px;
+	margin-left: 0;
+}
