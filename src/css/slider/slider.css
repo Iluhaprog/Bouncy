@@ -6,7 +6,7 @@
     height: 737px;
     background-image: url("../../../resources/img/slider/slider_img.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .blackout{

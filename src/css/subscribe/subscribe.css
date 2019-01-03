@@ -1,0 +1,47 @@
+.subscribe_us{
+	background-image: url("../../../resources/img/subscribe/bg_img_of_block_subscribe.png");
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.subscribe_us .blackout{
+	padding-bottom: 100px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.su_style{
+	color: #fff;
+}
+
+.subscribe{
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+
+.email{
+	padding: 15px 23px;
+	width: 350px;
+	background-color: transparent;
+	border: 1px solid var(--gray);
+	color: var(--email-color);
+	font-family: var(--open-sans);
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.14px;
+}
+
+.submit_btn{
+	width: 151px;
+	padding: 16px 23px;
+	background-color: var(--turquoise);
+	color: #fff;
+	font-family: var(--open-sans);
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.14px;
+	border: none;
+	margin-left: 10px;
+}

@@ -6,6 +6,9 @@
 .bg_team_quotes{
     width: 100%;
     background-image: url("../../../resources/img/team_quotes/tm_quotes_bg.png");
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     padding-bottom: 90px;
 }
 

@@ -145,6 +145,31 @@ $(window).ready(function(){
         $(".testimonial:nth-child(3)").addClass('selected_testimonial');
     });
 
+    $("#btn7").click(function(){
+        $("#btn7").addClass('blog_selected_nav_btn');
+        $("#btn8").removeClass('blog_selected_nav_btn');
+        $("#btn9").removeClass('blog_selected_nav_btn');
+        $(".bl_slide:nth-child(1)").addClass('selected_slide');
+        $(".bl_slide:nth-child(2)").removeClass('selected_slide');
+        $(".bl_slide:nth-child(3)").removeClass('selected_slide');
+    });
+    $("#btn8").click(function(){
+        $("#btn7").removeClass('blog_selected_nav_btn');
+        $("#btn8").addClass('blog_selected_nav_btn');
+        $("#btn9").removeClass('blog_selected_nav_btn');
+        $(".bl_slide:nth-child(1)").removeClass('selected_slide');
+        $(".bl_slide:nth-child(2)").addClass('selected_slide');
+        $(".bl_slide:nth-child(3)").removeClass('selected_slide');
+    });
+    $("#btn9").click(function(){
+        $("#btn7").removeClass('blog_selected_nav_btn');
+        $("#btn8").removeClass('blog_selected_nav_btn');
+        $("#btn9").addClass('blog_selected_nav_btn');
+        $(".bl_slide:nth-child(1)").removeClass('selected_slide');
+        $(".bl_slide:nth-child(2)").removeClass('selected_slide');
+        $(".bl_slide:nth-child(3)").addClass('selected_slide');
+    });
+
     
 });
 
