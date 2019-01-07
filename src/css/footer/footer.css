@@ -1,0 +1,52 @@
+.footer{
+	padding: 80px 0;
+	background-color: var(--very-light-silver);	
+}
+
+.brand_name{
+	color: var(--brand-name-color);
+	font-family: var(--big-john);
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 12px;
+	text-align: center;
+}
+
+.copyright{
+	margin-top: 25px;
+	color: var(--gray);
+	font-family: var(--open-sans);
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.7px;
+	text-align: center;
+}
+
+
+
+.social_icons{
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin-top: 37px;
+}
+
+.social_icons a{
+	width: 26px;
+	height: 26px;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.social_icons a:nth-child(1){ background-color: var(--facebook-color); }
+.social_icons a:nth-child(2){ background-color: var(--twitter-color); }
+.social_icons a:nth-child(3){ background-color: var(--linkedin-color); }
+.social_icons a:nth-child(4){ background-color: var(--instagram-color); }
+.social_icons a:nth-child(5){ background-color: var(--vimeo-color); }

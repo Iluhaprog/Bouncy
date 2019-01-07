@@ -171,6 +171,10 @@ $(window).ready(function(){
     });
 
     
+    $("#btd").click(function() {
+        $(".contact_map .blackout").css({"display" : "none"});
+    });
+
 });
 
 function checkWidthWorkBlock(){

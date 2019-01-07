@@ -15,3 +15,7 @@
 @import "blog/blog.css";
 @import "our_price/our_price.css";
 @import "subscribe/subscribe.css";
+@import "contact/contact_info.css";
+@import "contact/contact_form.css";
+@import "contact/contact_map.css";
+@import "footer/footer.css";

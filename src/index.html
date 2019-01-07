@@ -22,7 +22,7 @@
                     <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a href="#the_team">Team</a></li>
                     <li class="nav-item"><a href="#blog">Blog</a></li>
-                    <li class="nav-item"><a href="#">Contact</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -905,7 +905,99 @@
         </div>
     </div>
 
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script defer src="js/bouncy_script.js"></script>
+    <div class="contact_info default-bl" id="contact">
+        <div class="container">
+            <h2 class="title">CONTACT US</h2>
+            <p class="description">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui<br>
+                blanditiis praesentium
+            </p>
+
+            <div class="contact_details">
+                <div class="contact_block">
+                    <div class="contact_background"><span class="pe-7s-mail"></span></div>
+                    <div class="text_info">
+                        <h2 class="info_title">EMAIL</h2>
+                        <p><a href="#" class="second_info">hello@codecafe.com</a></p>
+                        <p><a href="#" class="second_info">Personal@codecafe.com</a></p>
+                    </div>
+                </div>
+                <div class="contact_block">
+                    <div class="contact_background"><span class="pe-7s-map-marker"></span></div>
+                    <div class="text_info">
+                        <h2 class="info_title">OUR OFFICE</h2>
+                        <p class="second_info">240 Bhatikhana, 8200 Barisal</p>
+                        <p class="second_info">Bangladesh</p>
+                    </div>
+                </div>
+                <div class="contact_block">
+                    <div class="contact_background"><span class="pe-7s-call"></span></div>
+                    <div class="text_info">
+                        <h2 class="info_title">PHONE</h2>
+                        <p><a href="tel:+00 11 66 99 66 44" class="second_info">+00 11 66 99 66 44</a><br></p>
+                        <p><a href="tel:11 99 66 44 065" class="second_info">11 99 66 44 065</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact_form default-bl">
+        <div class="container">
+            <form action="#" class="send_message">
+                <input type="text" name="user_name" placeholder="Your name">
+                <input type="email" name="email" placeholder="Email addres">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" cols="30" rows="10"></textarea>
+                <input type="submit" class="submit_btn contact_btn" value="SUBMIT NOW">
+            </form>
+        </div>
+    </div>
+
+    <div class="contact_map">
+        <div id="map" class="map"></div>
+        <div class="blackout">
+            <p>FIND US ON THE MAP</p>
+            <button class="button-down" id="btd"><span class="pe-7s-angle-down"></span></button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <h2 class="brand_name">BOUNCY</h2>
+            <p class="copyright">Copyright 2015. All rights Reserved</p>
+            <div class="social_icons">
+                <a href="#"><img src="../resources/img/footer/facebook_icon.svg" alt="facebook"></a>
+                <a href="#"><img src="../resources/img/footer/twitter_icon.svg" alt="twitter"></a>
+                <a href="#"><img src="../resources/img/footer/linkedIn_icon.svg" alt="linkedIn"></a>
+                <a href="#"><img src="../resources/img/footer/instagram_icon.svg" alt="instagram"></a>
+                <a href="#"><img src="../resources/img/footer/vimeo_icon.svg" alt="vimeo"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bouncy_script.js"></script>
+    <script>
+        var map;
+        var marker;
+
+        function initMap() {
+            var coordinates = {lat: 47.212325, lng: 38.933663};
+
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: coordinates,
+                zoom: 17,
+                scrollwheel: false
+            });
+
+            marker = new google.maps.Marker({
+                position: coordinates,
+                map: map,
+                title: "my first web site with google maps api"
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClh-7jdCdmCyrSk5-eAyHxWM-3rCNpRVo&callback=initMap" async defer></script>
 </body>
 </html>

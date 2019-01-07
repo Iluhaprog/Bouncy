@@ -1,0 +1,75 @@
+.contact_info{
+	background: var(--very-light-silver);
+	padding-bottom: 100px;
+}
+
+.contact_details{
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+
+.contact_block{
+	width: 287px;
+	background-color: #fff;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.contact_background{
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 57px 0;
+}
+
+.contact_block:nth-child(1) .contact_background{ 
+	background-image: url("../../../resources/img/contact/contact_img1.jpg");
+	-webkit-background-size: cover;
+	 background-size: cover; 
+}
+.contact_block:nth-child(2) .contact_background{ 
+	background-image: url("../../../resources/img/contact/contact_img2.jpg");
+	-webkit-background-size: cover;
+	 background-size: cover; 
+}
+.contact_block:nth-child(3) .contact_background{ 
+	background-image: url("../../../resources/img/contact/contact_img3.jpg");
+	-webkit-background-size: cover;
+	 background-size: cover; 
+}
+
+.contact_background span{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+.text_info{
+	padding: 30px 0;
+}
+
+.text_info h2, .text_info p{
+	text-align: center;
+}
+
+.text_info h2{
+	color: var(--un-title-color);
+	font-family: var(--open-sans);
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.64px;
+	margin-bottom: 25px;
+}
+
+.second_info{
+	text-decoration: none;
+	color: var(--gray);
+	font-family: var(--open-sans);
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+}
