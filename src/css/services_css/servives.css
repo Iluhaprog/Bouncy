@@ -43,6 +43,9 @@
 .begin_style{
     background-color: var(--turquoise) !important;
 }
+.mn_text{
+    width: 460px;
+}
 
 .mn_text .un_title{
     margin: 0 0 35px 0;
@@ -99,6 +102,7 @@
     stroke: var(--dark-turq);
     stroke-width: 5px;
     stroke-dasharray: 376.8;
+    transition: 4s ease-out;
 }
 
 .skills_name{

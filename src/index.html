@@ -184,26 +184,26 @@
                 </div>
                 <div class="skills">
                     <div class="default_skill_block">
-                        <p class="prozent">80<span>%</span></p>
-                        <svg width="130" height="130" class="skill_block">
+                        <p class="prozent"></p>
+                        <svg width="130" height="130" id="skill_block">
                             <circle r="60" cx="65" cy="65" fill="transparent" class="skill_circle_bottom"/>
-                            <circle r="60" cx="65" cy="65" stroke-dashoffset="301.44" fill="transparent" class="skill_circle_upper"/>
+                            <circle r="60" cx="65" cy="65" fill="transparent" class="skill_circle_upper" id="c1"/>
                         </svg>
                         <p class="skills_name">branding</p>
                     </div>
                     <div class="default_skill_block">
-                        <p class="prozent">75<span>%</span></p>
-                        <svg width="130" height="130" class="skill_block">
+                        <p class="prozent"></p>
+                        <svg width="130" height="130" id="skill_block">
                             <circle r="60" cx="65" cy="65" fill="transparent" class="skill_circle_bottom"/>
-                            <circle r="60" cx="65" cy="65" stroke-dashoffset="282.6" fill="transparent" class="skill_circle_upper"/>
+                            <circle r="60" cx="65" cy="65" fill="transparent" class="skill_circle_upper" id="c2"/>
                         </svg>
                         <p class="skills_name">web design</p>
                     </div>
                     <div class="default_skill_block">
-                        <p class="prozent">60<span>%</span></p>
-                        <svg width="130" height="130" class="skill_block">
+                        <p class="prozent"></p>
+                        <svg width="130" height="130" id="skill_block">
                             <circle r="60" cx="65" cy="65" fill="transparent" class="skill_circle_bottom"/>
-                            <circle r="60" cx="65" cy="65" stroke-dashoffset="226.08" fill="transparent" class="skill_circle_upper"/>
+                            <circle r="60" cx="65" cy="65" fill="transparent" class="skill_circle_upper" id="c3"/>
                         </svg>
                         <p class="skills_name">ui/ux</p>
                     </div>
@@ -495,7 +495,7 @@
             </p>
             <div class="team_slider">
                 <div class="employee_cards">
-                    <div class="card selected_card">
+                    <div class="card selected_card" style="opacity: 1">
                         <div class="photo">
                             <img src="../resources/img/the_team/employee_photo1.jpg" alt="empl_photo">
                             <div class="soc_icons">
@@ -548,7 +548,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" style="opacity: 0;">
                         <div class="photo">
                             <img src="../resources/img/the_team/employee_photo2.jpg" alt="empl_photo">
                             <div class="soc_icons">
@@ -601,7 +601,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" style="opacity: 0;">
                         <div class="photo">
                             <img src="../resources/img/the_team/employee_photo3.jpg" alt="empl_photo">
                             <div class="soc_icons">
@@ -680,7 +680,7 @@
 
             <div class="testimonials_slider">
 
-                <div class="testimonial selected_testimonial">
+                <div class="testimonial selected_testimonial" style="opacity: 1;">
                     <img src="../resources/img/testimonials/testimonials_img1.png" width="130" height="130" alt="img1">
                     <div class="about_testimonial">
                         <p class="main_text description">
@@ -692,7 +692,7 @@
                         <p class="tposition un_title">FOUNDER, ARTWAYS BD</p>
                     </div>
                 </div>
-                <div class="testimonial">
+                <div class="testimonial" style="opacity: 0;">
                     <img src="../resources/img/testimonials/testimonials_img2.jpg" width="130" height="130" alt="img1">
                     <div class="about_testimonial">
                         <p class="main_text description">
@@ -704,7 +704,7 @@
                         <p class="tposition un_title">FOUNDER, ARTGO BD</p>
                     </div>
                 </div>
-                <div class="testimonial">
+                <div class="testimonial" style="opacity: 0;">
                     <img src="../resources/img/testimonials/testimonials_img3.jpg" width="130" height="130" alt="img1">
                     <div class="about_testimonial">
                         <p class="main_text description">
@@ -741,7 +741,7 @@
                     <div class="blog_slider">
 
                         <div class="bl_slides">
-                            <div class="bl_slide selected_slide">
+                            <div class="bl_slide selected_slide" style="opacity: 1;">
                                 <h2 class="thema_title">The trending Landing Pages</h2>
                                 <p class="teller_name">by <span class="turquoise_span">Kabir Uddin</span></p>
                                 <p class="thema_status">6950 Likes - 243 Comments - 703 shares</p>
@@ -756,7 +756,7 @@
 
                                 <button class="slide_btn">+ Read More</button>
                             </div>
-                            <div class="bl_slide">
+                            <div class="bl_slide" style="opacity: 0;">
                                 <h2 class="thema_title">Creating online stores</h2>
                                 <p class="teller_name">by <span class="turquoise_span">Max Rubby</span></p>
                                 <p class="thema_status">8950 Likes - 255 Comments - 945 shares</p>
@@ -771,7 +771,7 @@
 
                                 <button class="slide_btn">+ Read More</button>
                             </div>
-                            <div class="bl_slide">
+                            <div class="bl_slide" style="opacity: 0;">
                                 <h2 class="thema_title">Making games</h2>
                                 <p class="teller_name">by <span class="turquoise_span">Dog Hudson</span></p>
                                 <p class="thema_status">1529 Likes - 833 Comments - 1433 shares</p>
